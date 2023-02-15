@@ -10,8 +10,7 @@
     "jest": "^26.0.1"
   },
   "scripts": {
-    "test": "jest",
-    "deploy": "npm run build&&gh-pages -d build"
+    "build": "npm run build&&gh-pages -d build"
   },
   "author": "jrw@mit.edu",
   "license": "MIT"
